@@ -1,0 +1,8 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header, article {
+    margin: 10px 200px;
+}
