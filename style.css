@@ -4,5 +4,13 @@ html, body {
 }
 
 header, article {
-    margin: 10px 200px;
+    margin: 3% 200px;
+}
+
+    header h1 {
+    text-align: center;
+    }
+
+#mainTitle {
+    margin-top: 2em;
 }
