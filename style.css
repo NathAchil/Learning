@@ -14,3 +14,8 @@ header, article {
 #mainTitle {
     margin-top: 2em;
 }
+
+li p {
+    width: 75%;
+    font-size: 1.1em
+}
