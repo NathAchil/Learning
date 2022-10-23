@@ -28,10 +28,6 @@ header, article {
     margin: 3% 12vw;
 }
 
-article {
-    margin-bottom: 10vh;
-}
-
     header h1 {
     text-align: center;
     }
@@ -50,9 +46,10 @@ article {
 }
 
 article {
+    margin-bottom: 10vh;
     background-color: #362540;
     padding: 1vh 2vw;
-    border: double;
+    border: double 0.5vw;
     border-radius: 1vw;
     
 }
