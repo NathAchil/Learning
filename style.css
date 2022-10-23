@@ -2,12 +2,17 @@ html, body {
     margin: 0px;
     padding: 0px;
     background-color: #261C2C;
+    color: #E7F6F2;
 }
+
+a:link {color: #67e6c4;}
+a:visited {color: #67e6c4;}
+a:hover {color: #67e6c4;}
+
 
 header {
     background-color: #3E2C41;
-    color: #E7F6F2;
-    padding: 0px 10px;
+    padding: 0px 1vw;
     padding-bottom: 2vh;
     border-style: solid;
     border-bottom-left-radius: 2vw;
@@ -16,15 +21,34 @@ header {
 }
 
 header, article {
-    margin: 3% 200px;
+    margin: 3% 12vw;
 }
 
     header h1 {
     text-align: center;
     }
 
+    .header-extra {
+        padding-left: 5vw;
+    }
+
+
 #mainTitle {
     margin-top: 2em;
+}
+
+article {
+    background-color: #362540;
+    padding: 1vh 2vw;
+    border: double;
+    
+}
+
+#description ul {
+    list-style-type: square;
+}
+#description ul li {
+    margin: 5vh 0vw;
 }
 
 li p {
@@ -40,6 +64,7 @@ li p {
         display: inline-block;
         text-align: left;
         margin-right: 5em;
+        list-style-type: circle;
     }
 
 #link-navi {
