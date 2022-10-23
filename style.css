@@ -6,7 +6,7 @@ html, body {
     font-family: "Helvetica", sans-serif;
 }
 html {
-    background-image: url(images/comp-back.png);
+    background-image: url(images/comp-back.jpg);
 }
 
 a:link {color: #67e6c4;}
@@ -44,6 +44,9 @@ article {
 
 #mainTitle {
     margin-top: 2em;
+    text-decoration: underline;
+    font-weight: bold;
+    
 }
 
 article {
