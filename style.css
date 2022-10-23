@@ -3,6 +3,7 @@ html, body {
     padding: 0px;
     background-color: #261C2C;
     color: #E7F6F2;
+    font-family: "Helvetica", sans-serif;
 }
 
 a:link {color: #67e6c4;}
@@ -28,6 +29,7 @@ header, article {
     text-align: center;
     }
 
+
     .header-extra {
         padding-left: 5vw;
     }
@@ -52,10 +54,15 @@ article {
     margin: 5vh 0vw;
 }
 
-li p {
-    width: 75%;
+#description ul li p {
+    width: 80%;
     font-size: 1.1em
 }
+
+ol li p {
+    font-size: 1.1em;
+}
+
 
 #table_of_contents{
     text-align: center;
@@ -93,4 +100,8 @@ footer {
     border-bottom-style: solid;
     border-top-left-radius: 2vw;
     border-top-right-radius: 2vw;
+}
+
+.hide::selection {
+    background-color: #362540;
 }
