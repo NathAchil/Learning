@@ -1,9 +1,12 @@
 html, body {
     margin: 0px;
     padding: 0px;
-    background-color: #261C2C;
+    /*background-color: #261C2C;*/
     color: #E7F6F2;
     font-family: "Helvetica", sans-serif;
+}
+html {
+    background-image: url(images/comp-back.png);
 }
 
 a:link {color: #67e6c4;}
@@ -67,6 +70,15 @@ ol li p {
     font-size: 1.1em;
 }
 
+#studying {
+    width: 30%;
+    float: right;
+}
+
+#fail {
+    width: 30%;
+    float: right;
+}
 
 #table_of_contents{
     text-align: center;
@@ -81,6 +93,8 @@ ol li p {
 
 #link-navi {
     text-align: center;
+    font-family: monospace;
+    font-size: 2em;
 }
 
 #messy-books {
