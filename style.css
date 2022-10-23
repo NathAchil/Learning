@@ -72,6 +72,20 @@ li p {
     text-align: center;
 }
 
+#messy-books {
+    display: inline-block;
+    float: right;
+    position: relative;
+    margin-left: 4vw;
+    margin-right: ;
+    width: 20%;
+    height: auto;
+    clear: left;
+}
+#messy {
+    margin-right: ;
+}
+
 footer {
     margin: 0px 2vw;
     padding: 0px 2vw;
