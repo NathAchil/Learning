@@ -76,6 +76,7 @@ ol li p {
 }
 
 #fail {
+    display: inline-block;
     width: 30%;
     float: right;
 }
@@ -83,6 +84,11 @@ ol li p {
 #table_of_contents{
     text-align: center;
     margin-top: 4em;
+    border-style: dashed solid solid solid;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    border-width: medium;
+    background-image: radial-gradient(#261e2b, #261e2b, #261e2b, #261e2b, #261e2b, #723DE8);
 }
     #table_of_contents ul{
         display: inline-block;
